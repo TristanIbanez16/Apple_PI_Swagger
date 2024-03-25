@@ -7,7 +7,6 @@ info:
 servers:
 - url: https://virtserver.swaggerhub.com/TRISTANJIBANEZ/Invoice_Storage/1.0.0
   description: SwaggerHub API Auto Mocking
-- url: https://petstore.swagger.io/v2
 tags:
 - name: Input Handling
 - name: Storage Handling
