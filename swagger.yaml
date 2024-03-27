@@ -14,16 +14,6 @@ tags:
 - name: Authentication
 - name: Health
 paths:
-  /v1/health:
-    get:
-      tags:
-      - Health
-      summary: Check health of server
-      description: Check the health of the server
-      operationId: healthCheck
-      responses:
-        "200":
-          description: OK
   /v1/invoice/{token}/{invoice_key}:
     get:
       tags:
