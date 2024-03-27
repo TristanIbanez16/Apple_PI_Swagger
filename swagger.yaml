@@ -2,7 +2,7 @@
 openapi: 3.0.0
 info:
   title: Invoice Storage
-  description: "This is a simple invoice storage api.  \n"
+  description: "This is a simple invoice storage api. \n"
   version: 1.0.0
 servers:
 - url: https://virtserver.swaggerhub.com/TRISTANJIBANEZ/Invoice_Storage/1.0.0
