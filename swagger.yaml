@@ -14,7 +14,7 @@ tags:
 - name: Authentication
 - name: Health
 paths:
-/v1/invoice/upload:
+  /v1/invoice/upload:
     get:
       tags:
       - Health
