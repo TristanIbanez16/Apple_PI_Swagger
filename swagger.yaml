@@ -1,4 +1,4 @@
----
+h---
 openapi: 3.0.0
 info:
   title: Invoice Storage
@@ -14,7 +14,7 @@ tags:
 - name: Authentication
 - name: Health
 paths:
-  /v1/invoice/upload:
+  /v1/health:
     get:
       tags:
       - Health
