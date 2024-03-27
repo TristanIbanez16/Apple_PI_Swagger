@@ -12,7 +12,18 @@ tags:
 - name: Storage Handling
 - name: Invoice Retrieving
 - name: Authentication
+- name: Health
 paths:
+/v1/invoice/upload:
+    get:
+      tags:
+      - Health
+      summary: Check health of server
+      description: Check the health of the server
+      operationId: healthCheck
+      responses:
+        "200":
+          description: OK
   /v1/invoice/{token}/{invoice_key}:
     get:
       tags:
